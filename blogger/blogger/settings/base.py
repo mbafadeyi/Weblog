@@ -61,7 +61,10 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
             ],
-            "builtins": ["blogger.blog.templatetags.tag_cloud"],
+            "builtins": [
+                "blogger.blog.templatetags.tag_cloud",
+                "blogger.blog.templatetags.markdown_processing",
+            ],
         },
     },
 ]

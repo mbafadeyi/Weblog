@@ -36,18 +36,68 @@ body {
     color: inherit;
 }
 
+.blogger h1{
+    letter-spacing: -0.6px;
+}
+
+.post h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.post p{
+    font-family: Merriweather;
+    font-size: 1.0625rem;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+
+#sm-logo-out{
+        position: relative;
+        background-color: black;
+        width: 38px;
+        height: 38px;
+        top: 50%;
+}
+
+#sm-logo-in{
+        position: relative;
+        background-color: white;
+        width: 12px;
+        height: 12px;
+        top: 18%;
+        left: 50%;
+}
+
 .infscroll-title {
     font-size: 22px;
     letter-spacing: -0.6px;
 }
 
 @media only screen and (max-width: 768px){
+    .container,
+    .container-sm{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
     .infscroll-title{
         font-size: 0.9375rem;
-    letter-spacing: -0.0px;
+        letter-spacing: -0.0px;
     }
-    infscroll-author, 
-    infscroll-date{
+    .infscroll-author, 
+    .infscroll-date{
         font-size: 0.8125rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .col-navbar{
+        flex: 0 0 80px;
+        display: flex;
+        justify-content: center;
+        border-right: 1px solid #dee2e6;
+        height: 100vh;
     }
 }
