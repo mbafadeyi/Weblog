@@ -12,6 +12,11 @@ body {
     font-family: 'Barlow', sans-serif;
 }
 
+p{
+    font-family: 'Merriweather';
+    line-height: 22px;
+}
+
 .fw-500{
     font-weight: 500;
 }
