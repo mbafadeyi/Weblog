@@ -15,9 +15,6 @@ class HomeView(ListView):
         return "blog/index.html"
 
 
-# class DetailView(DetailView):
-#     model = Post
-#     template_name = "blog/post_detail"
 def post_detail(request, post):
     post = get_object_or_404(Post, slug=post, status="published")
     related = Post.objects.filter(author=post.author)[:5]
