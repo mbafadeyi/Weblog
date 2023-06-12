@@ -31,5 +31,5 @@ To run this project, install it locally using Python;
 4.	python manage.py runserver
 
 ### Status
-While I have completed and deployed this project (), I intend to build it into a robust app by adding more features in the coming days.
+While I have completed this project, I intend to build it into a robust app by adding more features in the coming days.
 
